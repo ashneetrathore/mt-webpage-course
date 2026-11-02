@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Rapunzel Reads Book Box</title>
+<style>
+	table { 
+			border: 0px solid black;
+			height: 90%;
+			width: 90%;
+		}
+		th, td {
+			border:0px solid black;
+		}
+		body {
+			font-family:courier new;
+		}
+	
+</style>
+</head>
+
+<body background="pastel.jpg">
+
+<h1 style="text-align: center; font-size: 30px"><img src="rapunzelreads.png"></h1>
+<form method="post" action="mailto:rapunzelbooks@email.net" enctype="text/plain">
+<p>Welcome to the Rapunzel Reads Book Box! These boxes specially include items based on your favorite genre in books. The box includes one book and many other trinkets that all fit the theme of the genres you choose every month. This box was created to help you explore a genre that you like to read or find a genre that you will love to read. We specialize in hand picking young adult top sellers, however we can occasionally choose an adult or even a middle grade novel. Fill out this form, including your name, address, genre of book, and goodie list, to order your box! Shipping is free for first time customers, but otherwise it is $8.00. Then, click "Order Now!" and your order is placed.</p>
+<table align="center" cellpadding="10">
+	
+	<tr style="height: 90px">
+		<td><h3 style="font-size:24px; color: black;">Basic Information</h3>
+			Enter your first name: <input type="text" name="first" size="18" maxlength="18" style="background: #ccccff"><br /><br />
+			Enter your last name: <input type="text" name="last" size="18" maxlength="18" style="background: #ccccff"><br /><br />
+			Enter your address: <input type="text" name="address" size="18" maxlength="18" style="background: #ccccff"><br /><br />
+			Enter your city:<input type="text" name="city" size="18" maxlength="18" style="background: #ccccff"><br /><br />
+			Enter your state:<input type="text" name="state" size="2" maxlength="2" style="background: #ccccff"><br /><br />
+			Enter your zip code:<input type="text" name="zip" size="5" maxlength="5" style="background: #ccccff"><br /><br />
+	</td>
+	</tr>
+	
+	<tr style="height:90px">
+		<td><h3 style="font-size:24px; color: black;">Genre of Book</h3>
+			<p>Choose one genre you would like to read this month. We will personally choose a book from our top-sellers list that correlates with the genre that you chose. The book itself is going to be $6.99 for all genres.</p><br /><br />
+			<input type="radio" name="Genre of Book" value="romance">Contemporary Romance<br />
+			<input type="radio" name="Genre of Book" value="sci-fi">Science Fiction<br />
+			<input type="radio" name="Genre of Book" value="mystery and crime">Mystery or Crime Thrillers<br />
+			<input type="radio" name="Genre of Book" value="fantasy">Fantasy<br /><br />
+		<image src="fangirl.jpg" style="border: 5px ridge black" />
+		<br /><p>Example of a book from the contemporary romance genre. This book is called <i>Fangirl</i> by Rainbow Rowell.</p>
+		</td>
+	</tr>
+	
+	<tr>
+		<td><h3 style="font-size:24px; color: black;">Goodies</h3>
+			<p>Based on the genre you chose, you must choose either one or multiple goodies to buy along with the book. Select which items you want, and we will choose the design for each item. For example, if you choose fantasy for your genre and you order a pen, we will give you a fairy themed pen. Each item's price is listed next to the item itself. You must <b>CHOOSE AT LEAST ONE GOODIE</b> for your order to be accepted and delivered (you can order a box without a goodie, but your order will be declined).</p><br /></br>
+			<input type="checkbox" name="Goodies" value="pen">Pen $2.00<br />
+			<input type="checkbox" name="Goodies" value="notebook">Notebook $5.00<br />
+			<input type="checkbox" name="Goodies" value="bookmark">Bookmark $2.00<br />
+			<input type="checkbox" name="Goodies" value="mug">Mug $7.00<br />
+			<input type="checkbox" name="Goodies" value="clothing">Clothing Accesories (scarf, beanie, or socks) $7.00<br /><br />
+		<image src="harrypotter mug.JPG" style="border:5px ridge black" width="250px" height="250px"/>
+		<br /><p>Example of a mug from the fantasy genre inspired by the <i>Harry Potter</i> series.</p>
+		</td>
+	
+	</tr>
+	
+	<tr>
+		<td><h3 style="font-size:24px; color: black;">Special Items</h3>
+			<p>You have the option to choose, at the most, one item from the special items list. Every special item is $9.00.</p>
+			<select>
+			<option value="candle">Scented Candle</option>
+			<option value="pin">Pin</option>
+			<option value="sticker sheet">Sticker Sheet (book-themed)</option>
+			<option value="coaster">Coaster</option>
+			<option value="none">None</option>
+			</select><br /><br />
+		<img src="nancydrew.jpg" style="border:5px ridge black;" width="250px" height="250px" />
+		<br /><p>Example of a pin from the mystery or crime thrillers genre inspired by the <i>Nancy Drew</i> series.</p>
+		</td>
+	</tr>
+	
+	<tr>
+	<td><h3 style="font-size:24px; color: black;">Comments</h3>
+		<p>Any questions, comments, or concerns? Leave a comment! Tell us how we can improve our website and comment your favorite book box item below.</p><br /></br>
+		<textarea text-align="center" name="commentbox" rows="10" cols="200" style="background: #ccccff;font-family: arial;">Enter your comments here.</textarea><br />
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td>
+<input type="submit" style="background:#fad1f7;background:-webkit-linear-gradient(#fad1f7, #c7e0f7);background:linear-gradient(#fad1f7, #c7e0f7);border:1px solid #ea9999;border-radius: 4px;width:200px;height:50px;color: #000000; display:inline-block;font:normal 700 26px/50px; font-family:arvo, serif;text-align:center;text-shadow:4px 4px #fce5cd;" value="Order Now!">
+<!--This is where the Order Now button is located. -->
+	</td>
+	</tr>
+
+	</table>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,175 @@
+html {
+	background-image: url(bookbackground.jpg);
+	
+}
+h1 {
+	text-align: center;
+	font-size: 7em;
+	font-family: 'Dokdo', cursive;
+	color: black;
+	margin-top: 115px;
+}
+
+#menu {
+	background-color: #ffe6e6;
+	min-width: 250px;
+	list-style: none;
+	position: fixed;
+	margin-top: 0;
+	}
+
+ul li {
+	display: block;
+	position: relative; 
+	float: left;
+	padding-left: 173px;
+	
+}
+
+
+li ul {
+	display: none;
+	background: none;
+}
+
+ul li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	border-top: 1px solid black;
+	padding: 5px 5px 5px 5px;
+	font-family: 'Inconsolata', monospace;
+	background-color: white;
+
+}
+
+ul li a:hover {
+	background: #ddd;
+}
+
+li:hover ul {
+	display: block;
+	position: absolute;
+}
+
+li:hover li {
+	float: none;
+}
+#design:first-child a {
+	border: none;
+	background: none;
+}
+
+#design:first-child a:hover {
+	background: none;
+}
+
+#design:last-child a {
+	border: none;
+	background: none;
+}
+
+#design:last-child a:hover {
+	background: none;
+}
+ 
+
+h2 {
+	text-align: center;
+	color: black;
+	letter-spacing: 14px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 23px;
+
+}
+
+h2:hover {
+	color: #ff4d4d;
+}
+
+
+h3 {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	color: black;
+	font-size: 30px;
+	line-height: 5px;
+	margin-top: -90px;
+}
+
+
+img {
+	border: 2px solid black;
+	width: 500px;
+	height: 400px;
+	margin-left: 50px;
+	
+	
+}
+
+hr {
+	width: 75%;
+	color: black;
+	
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	color: #666666;
+}
+
+#price {
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+
+#description {
+	font-size: 20px;
+}
+
+#text {
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+	padding-top: 50px;
+	padding-left: 100px;
+	width: 850px;
+	height: 300px;
+	margin-top: 300px;
+	margin-left: 600px;
+
+}
+
+#pic2 {
+	margin-top: 100px;
+	
+}
+
+#text2 {
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+	padding-top: 50px;
+	padding-left: 100px;
+	width: 850px;
+	height: 350px;
+	margin-top: 825px;
+	margin-left: 600px;
+}
+
+#text3 {
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+	padding-top: 50px;
+	padding-left: 100px;
+	width: 850px;
+	height: 350px;
+	margin-top: 1350px;
+	margin-left: 600px;
+}	

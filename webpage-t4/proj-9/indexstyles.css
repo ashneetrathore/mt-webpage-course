@@ -1,0 +1,33 @@
+h1 {
+	font-size: 50pt;
+	font-family: trebuchet MS;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30pt;
+	font-family: tahoma;
+	text-align: center;
+}
+
+p {
+	font-size: 14pt;
+	color: red;
+	font-family: trebuchet MS;
+}
+
+body {
+	background-color: #ffe6ff;
+	margin: 20px;
+}
+
+ol {
+	color: #cc66ff;
+	font-family: arial;
+}
+
+hr {
+	width: 75%;
+	color: #ff66ff;
+}
+

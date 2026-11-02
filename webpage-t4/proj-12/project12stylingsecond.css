@@ -1,0 +1,80 @@
+html {
+	background-image: url(minimalismpattern.jpg);
+}
+
+body {
+	margin-bottom: 50px;
+	
+	
+}
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+	width: 350px;
+	letter-spacing: 3px;
+	background-color: #cccccc;
+}
+
+#menu {
+	text-align: center;
+	font-size: 23px;
+	letter-spacing: 5px;
+	background-color: #cccccc;
+	
+}
+
+#logo {
+	margin: auto;
+	width: 700px;
+}
+
+#text {
+	width: 800px;
+	padding-left: 10px;
+}
+
+
+p {
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#photo1 {
+	float: left;
+	padding-right: 80px;
+	padding-left: 60px;
+	
+}
+
+#style {
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	height: 450px;
+
+}
+
+#sidebar {
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+	padding-top: 200px;
+	padding-left: 850px;
+	width: 400px;
+	height: 300px;
+	margin-left: 30px;
+	text-align: center;
+	
+}
+
+#sidepics {
+	height: 300px; 
+	border-width: 1px; 
+	border-color: black; 
+	border-style: solid;
+	margin-left: 20px;
+
+}
